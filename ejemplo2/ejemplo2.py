@@ -31,10 +31,7 @@ def main():
                 break
             case _:
                 print("Opción inválida")
-        
     
-
-
 
 if __name__ == "__main__":
     main()

@@ -3,7 +3,7 @@ class Persona:
     # atributos
     _nombre = ""
     _edad = 0
-    _carnet = 0  
+    _carnet = 0
     # constructor
     def __init__(self, nombre, edad, carnet):
         self._nombre = nombre
