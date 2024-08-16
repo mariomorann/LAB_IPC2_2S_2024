@@ -7,3 +7,5 @@ Repositorio de Clases y Ejemplos para el laboratorio de Introducción a la Progr
 ##### /ejemplo3: Programación Orientada a Objetos
 ##### /ejemplo4: Programación Orientada a Objetos
 ##### /ejemplo5: Git y XML
+##### /ejemplo6: XML y Listas enlazadas
+##### /ejemplo7: XML y Listas enlazadas

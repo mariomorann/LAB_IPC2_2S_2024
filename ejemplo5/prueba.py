@@ -24,6 +24,7 @@ def main():
             leerArchivo()
         elif opcion == 2:
             print("viendo informacion ...")
+            
     print("Fin del programa.")
 
 if __name__ == "__main__":
