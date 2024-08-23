@@ -15,6 +15,16 @@ class ListaPizzas:
                 actual = actual.next
             actual.next = newNode
     
+    def eliminar(self, newValue):
+        newNode = Nodo(newValue)
+        if self.head is None:
+            self.head = newNode
+        else:
+            actual = self.head
+            while actual.next is not None:
+                actual = actual.next
+            actual.next = newNode
+    
     def getInfo(self):
         if self.head is not None:
             actual = self.head
