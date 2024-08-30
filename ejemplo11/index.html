@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- METADATOS -->
+
+    <style>
+        .form-cls {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1> Este un ejemplo de HTML </h1>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam sit voluptates, incidunt possimus quis deleniti ipsam sunt nobis culpa esse fugit nam facere optio corrupti neque inventore laudantium provident? Iure.    
+    </p>
+
+    <a href="hola.html"> Hola Mundo </a>
+    <br>
+    <img src="img.gif" alt="No hay imagen">
+
+    <h2> Formato de texto en HTML </h2>
+
+    <p>
+        Lorem ipsum <strong> dolor sit amet consectetur </strong>
+        adipisicing elit.<sub>1</sub> <em>Odit</em>  labore 
+        alias illum hic facilis, repellat dolor 
+        obcaecati eaque <u> voluptates </u> 
+        <ins>doloribus</ins>  repellendus <del>consequuntur</del>  
+        blanditiis at aut tempore eius veritatis 
+        id <small>incidunt</small>?<sup>2</sup>
+    </p>
+
+    <h3> Listas en HTML </h3>
+
+    <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+    </ul>
+
+    <ol type="1" start="10">
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+    </ol>
+
+    <h4> Nav en HTML </h4>
+
+    <nav>
+        <ul>
+            <li>Inicio</li>
+            <li>Productos</li>
+            <li>Contactanos</li>
+            <li>Anexos</li>
+        </ul>
+    </nav>
+
+    <h5> Formularios en HTML </h5>
+
+    <form class="form-cls" action="hola.html">
+        <!--
+        <input type="text">
+        <input type="checkbox">
+        <input type="color">
+        <input type="date">
+        <input type="datetime">
+        <input type="datetime-local">
+        <input type="email">
+        <input type="file">
+        <input type="month">
+        <input type="number">
+        <input type="password">
+        <input type="radio">
+        <input type="range">
+        <input type="reset">
+        <input type="search">
+        <input type="tel">
+        <input type="time">
+        <input type="url">
+        <input type="week">
+
+        <button type="submit">
+            Enviar
+        </button>
+    -->
+        <fieldset>
+            <legend>Información Personal</legend>
+
+            <label for="nombre"> Nombre: </label>
+            <input name="nombre" type="text" placeholder="Nombre">
+            
+            <label for="correo"> Correo: </label>
+            <input name="correo" type="email" placeholder="Correo">
+            
+            <label for="telefono"> Telefono: </label>
+            <input name="telefono" type="number" placeholder="0000 0000">
+
+            <label for="genero"> Genero: </label>
+            <select name="genero" id="genero">
+                <option value="1"> Masculino </option>
+                <option value="2"> Femenino </option>
+                <option value="3"> Femenino </option>
+                <option value="4"> Femenino </option>
+                <option value="5"> Femenino </option>
+                <option value="6"> Femenino </option>
+            </select>
+            <button type="submit"> Enviar </button>
+        </fieldset>
+    </form>
+
+    <h6> Semántica en HTML </h6>
+
+    <div>
+        Division de elementos
+    </div>
+    <header>
+        Encabezado
+    </header>
+    <nav>
+        Barra de navegación
+    </nav>
+    <main>
+        Contenido prinicipal
+    </main>
+    <footer>
+        Pie la pagina
+    </footer>
+    <article>
+        Articulo
+    </article>
+    <section>
+        Section
+    </section>
+    <aside>
+        Aside
+    </aside>
+    
+    <h6> Tablas en HTML </h6>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Columna 1</th>
+                <th>Columna 2</th>
+                <th>Columna 3</th>
+                <th>Columna 4</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Elemento 1</td>
+                <td>Elemento 2</td>
+                <td>Elemento 3</td>
+                <td>Elemento 4</td>
+            </tr>
+            <tr>
+                <td>Elemento 1</td>
+                <td>Elemento 2</td>
+                <td> </td>
+                <td>Elemento 4</td>
+            </tr>
+            <tr>
+                <td>Elemento 1</td>
+                <td>Elemento 2</td>
+                <td>Elemento 3</td>
+                <td>Elemento 4</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
