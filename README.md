@@ -12,4 +12,5 @@ Repositorio de Clases y Ejemplos para el laboratorio de Introducción a la Progr
 ##### /ejemplo9: Estructuras de Datos y Graphviz
 ##### /ejemplo10: Estructuras de Datos y Graphviz
 ##### /ejemplo11: HTML
-##### /ejemplo12: Flask
+##### /ejemplo12: Introducción a Flask
+##### /ejemplo13: Formularios con Flask
