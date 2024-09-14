@@ -1,0 +1,31 @@
+{% extends 'template.html' %}
+{% block content %}
+
+<h1> Formulario </h1>
+
+<div>
+    <form action="/enviar" method="POST" class="">
+        <label>
+            Nombre
+            <input id="name" name="name" type="text" placeholder="Nombre">
+        </label>
+        <label>
+            Apellido
+            <input id="lastname" name="lastname" type="text" placeholder="Apellido">
+        </label>
+        <label>
+            Correo
+            <input id="email" name="email" type="email" placeholder="Correo">
+        </label>
+        <label>
+            Contraseña
+            <input id="password" name="password" type="password" placeholder="Contraseña">
+        </label>
+
+        <button type="submit">
+            Enviar
+        </button>
+    </form>
+</div>
+
+{% endblock %}

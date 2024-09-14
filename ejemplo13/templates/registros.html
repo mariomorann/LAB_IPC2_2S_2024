@@ -1,0 +1,35 @@
+{% extends 'template.html' %}
+{% block content %}
+
+<div>
+    <h1>
+        Registros
+    </h1>
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <th> Nombre </th>
+                    <th> Apellido </th>
+                    <th> Correo </th>
+                    <th> Contraseña </th>
+                    <th> Opciones </th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for registro in lista_registros %}
+                <form action={{"/eliminar/" + registro.name }} method="DELETE">
+                    <tr>
+                        <td> {{ registro.name }} </td>
+                        <td> {{ registro.lastname }} </td>
+                        <td> {{ registro.email }} </td>
+                        <td> {{ registro.password }} </td>
+                        <td> <button type="submit"> Eliminar </button> </td>
+                    </tr>
+                </form>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endblock %}
