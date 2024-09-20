@@ -1,30 +1,36 @@
 {% extends 'template.html' %}
 {% block content %}
 
-<h1> Formulario </h1>
 
-<div>
-    <form action="/enviar" method="POST" class="">
+<h1> Formulario </h1>
+<div class="container-formulario">
+    <form action="/enviar" method="POST" class="formulario">
+        <div class="centrar">
+            <h2>
+                Formulario de registro
+            </h2>
+        </div>
         <label>
-            Nombre
+            Nombre:
             <input id="name" name="name" type="text" placeholder="Nombre">
         </label>
         <label>
-            Apellido
+            Apellido:
             <input id="lastname" name="lastname" type="text" placeholder="Apellido">
         </label>
         <label>
-            Correo
+            Correo:
             <input id="email" name="email" type="email" placeholder="Correo">
         </label>
         <label>
-            Contraseña
+            Contraseña:
             <input id="password" name="password" type="password" placeholder="Contraseña">
         </label>
-
-        <button type="submit">
-            Enviar
-        </button>
+        <div class="centrar">
+            <button type="submit" class="btn-enviar">
+                Enviar
+            </button>
+        </div>
     </form>
 </div>
 
