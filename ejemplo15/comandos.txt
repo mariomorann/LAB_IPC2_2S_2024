@@ -1,0 +1,9 @@
+pip install django
+
+python -m django --version
+
+python -m django startproject appname
+
+python manage.py startapp app
+
+python manage.py runserver
