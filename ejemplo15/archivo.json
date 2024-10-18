@@ -1,0 +1,22 @@
+{
+  "pizzas": {
+    "pizza": [
+      {
+        "@nombre": "Barbacoa",
+        "@precio": "8",
+        "ingrediente": [
+          "Salsa Barbacoa",
+          "Mozzarella",
+          "Pollo",
+          "Bacon",
+          "Ternera"
+        ]
+      },
+      {
+        "@nombre": "Margarita",
+        "@precio": "6",
+        "ingrediente": ["Tomate", "Jamón", "Queso"]
+      }
+    ]
+  }
+}
