@@ -14,10 +14,15 @@ def cargar_archivo():
     # convertir el diccionario a un xml
     xml = dicttoxml.dicttoxml(archivo_cargado)
 
-    return jsonify({"message": "La carga se realizó con exito."})
+    return jsonify({"message": "La carga se realizó con exito.", "error": False})
 
 @app.route("/obtenerArchivo", methods=["GET"])
 def obtener_archivo():
+
+    # generar el xml
+
+    # obtener el string del xml
+
     return jsonify(archivo_cargado)
 
 if __name__ == "__main__":

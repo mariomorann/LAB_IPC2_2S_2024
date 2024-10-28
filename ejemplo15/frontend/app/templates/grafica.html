@@ -1,0 +1,23 @@
+{% extends "template.html" %}
+{% block content %}
+    <style>
+        .container-center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        min-height: max-content;
+        padding: 15px;
+    }
+
+    .container-grafica {
+        max-width: 500px;
+    }
+    </style>
+    <h1>Gráfica</h1>
+    <div class="container-center">
+        <div class="container-grafica">
+            {{ plot_div|safe }}
+        </div>
+    </div>
+{% endblock %}

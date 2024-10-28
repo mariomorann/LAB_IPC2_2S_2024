@@ -19,5 +19,6 @@ from app import views
 
 urlpatterns = [
     path('', views.index),
-    path('about', views.about)
+    path('ver', views.ver),
+    path('grafica', views.grafica)
 ]
